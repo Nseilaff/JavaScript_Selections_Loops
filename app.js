@@ -7,7 +7,14 @@ for(let i = 0; i <= 100; i++){
         console.log(i)
     }
 }
-
+let num = 1;
+console.log("While loop");
+while (num <= 100){
+    if (num % 2 != 0){
+        console.log(num);
+    }
+    num++;
+}
 // Exercise 2 Section
 console.log("EXERCISE 2:\n==========\n");
 for(let i = 0; i <= 100; i++){
